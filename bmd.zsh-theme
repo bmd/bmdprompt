@@ -27,7 +27,7 @@ zstyle ':vcs_info:*:*' check-for-changes true # Can be slow on big repos.
 zstyle ':vcs_info:*:*' unstagedstr '❯'
 zstyle ':vcs_info:*:*' stagedstr '❯'
 zstyle ':vcs_info:*:*' actionformats "%S" "%r/%s/%b %u%c (%a)"
-zstyle ':vcs_info:*:*' formats "%S" "• %b %{$fg[124]%}%u%{$reset_color%}%{$fg[yellow]%}%c%{$reset_color%}"
+zstyle ':vcs_info:*:*' formats "%S" "• %b %{$reset_color%}%{$fg[red]%}%u%{$reset_color%}%{$fg[yellow]%}%c%{$reset_color%}"
 zstyle ':vcs_info:*:*' nvcsformats "%~" ""
 
 # Define prompts.
